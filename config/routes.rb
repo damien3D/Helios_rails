@@ -1,6 +1,7 @@
 HeliosRails::Application.routes.draw do
   get 'home', to: 'application#home'
-  match '/signup',  to:  'mcsubscribe#subscribe', via: 'get'
+  root 'mcsubscribe#index'
+  get '/mcsubscribe', to: 'mcsubscribe#subscribe'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
