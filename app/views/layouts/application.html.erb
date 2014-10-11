@@ -1,14 +1,260 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Helios by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-<head>
-  <title>HeliosRails</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+	<head>
+		<title>Glif it</title>
 
-<%= yield %>
+		<%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  		<%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  		<%= csrf_meta_tags %>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="icon" type="image/png" href="images/logo200px.png" />
 
-</body>
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/jquery.scrolly.min.js"></script>
+		<script src="js/jquery.onvisible.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+			<link rel="stylesheet" href="css/style-noscript.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body class="homepage">
+
+		<!-- Header -->
+			<div id="header">
+						
+				<!-- Inner -->
+					<div class="inner">
+						<header>
+							<a href="#" class="image fit"><img src="images/logo200px.png" alt="" /></a>
+							<h1><span style="font-family:Akbar">Glif <span style="color:#FF8000">it</span></span></h1>
+
+							<hr />
+							
+							<p>Laissez votre empreinte en diffusant des <span style="color:#FF8000">glifs</span></p>
+						
+						</header>
+					<footer>
+						 <%= link_to "Sign up now!", signup_path,
+                                class: "button" %>
+					</footer>
+					</div>
+			</div>
+			
+		<!-- Banner -->
+			<section id="banner">
+				<header>
+					<h2> <span style="font-family:Akbar">Glif <span style="color:#FF8000">it</span></span></h2>
+					<p>
+						permet d'afficher un message virtuel sur un objet du monde réel.</br> C'est une nouvelle plateforme d'échange dans laquelle chaque surface devient potentiellement un support de communication.
+					</p>
+				</header>
+			</section>
+
+		<!-- Use case -->
+			<section class="carousel">
+				<div class="reel">
+
+					<article>
+						<a href="#" class="image featured"><img src="images/use_case_resto2.jpg" alt="" /></a>
+						<header>
+							<h3><a href="#">Pour les lieux </a></h3>
+						</header>
+						<p>Partagez des bons plans pour les utilisateurs à proximité.</p>							
+					</article>
+				
+					<article>
+						<a href="#" class="image featured"><img src="images/use_case_footprint.jpg" alt="" /></a>
+						<header>
+							<h3><a href="#">Laissez une trace</a></h3>
+						</header>
+						<p>Postez des glifs n'importe où et soyez imaginatifs !</p>							
+					</article>
+				
+					<article>
+						<a href="#" class="image featured"><img src="images/use_case_orange.jpg" alt="" /></a>
+						<header>
+							<h3><a href="#">Interagissez</a></h3>
+						</header>
+						<p>Postez des messages sans sortir du contexte.</p>							
+					</article>
+				
+					<article>
+						<a href="#" class="image featured"><img src="images/screenshot_eva.jpg" alt="" /></a>
+						<header>
+							<h3><a href="#">Partez à la recherche des glifs</a></h3>
+						</header>
+						<p>Éveillez votre curiosité et chercher les glifs cachés.</p>							
+					</article>
+				
+					
+				</div>
+			</section>
+			
+		<!-- Video -->
+			<div class="wrapper style2">
+
+				<article id="main" class="container special">
+					<header>
+						<h2><a href="#">Video</a></h2>
+					</header>
+					
+					<div class="video-container">
+						<iframe src="http://www.youtube.com/embed/-7qUMDoBAck" frameborder="0" width="560" height="315"></iframe>
+					</div>
+					
+					
+				</article>
+			</div>
+
+		<!-- Features -->
+			<div class="wrapper style1">
+				
+				<section id="features" class="container special">
+					<header>
+						<h2>L'équipe Glif it</h2>
+					</header>
+					<div class="row">
+						<article class="4u special">	
+						
+							<div class="jm-item first">
+								<div class="jm-item-wrapper">
+									<div class="jm-item-image">
+										<a class="image featured"><img src="images/damien2.png" alt="" /></a>
+										<span class="jm-item-overlay"> </span>
+										<div class="jm-item-button"><a href="https://www.linkedin.com/profile/view?id=347393943&authType=NAME_SEARCH&authToken=9VON&locale=fr_FR&trk=tyah2&trkInfo=tarId%3A1412618213136%2Ctas%3Adamien%20%2Cidx%3A1-1-1" class="icon fa-linkedin"><span class="label">Linkedin</span></a></div>										
+										<div class="jm-item-button2"><a href="https://twitter.com/DanRaynal?lang=en" class="icon fa-twitter"><span class="label">Twitter</span></a></div>
+									</div>
+								</div>
+							</div>		
+							
+						<header>
+								<h3><a >Damien Raynal, CEO</a></h3>
+							</header>
+							<p>
+								Initiateur du projet, il décide de fonder la société Glif it en 2013. 
+								Leader de l'équipe et développeur Back-end en Ruby on Rails.
+							</p>
+						</article>
+						<article class="4u special">
+						
+							<div class="jm-item first">
+								<div class="jm-item-wrapper">
+									<div class="jm-item-image">
+										<a href="#" class="image featured"><img src="images/matthew2.png" alt="" /></a>
+										<span class="jm-item-overlay"> </span>
+										<div class="jm-item-button"><a href="https://www.google.com/url?q=https%3A%2F%2Fwww.linkedin.com%2Fprofile%2Fview%3Fid%3D344816754%26authType%3DNAME_SEARCH%26authToken%3DJMrw%26locale%3Dfr_FR%26trk%3Dtyah2%26trkInfo%3DtarId%253A1412619104412%252Ctas%253Amatth%252Cidx%253A1-1-1&sa=D&sntz=1&usg=AFQjCNH54dMPl406-5RnmuFqL2gQ6dJHfQ" class="icon fa-linkedin"><span class="label">Linkedin</span></a></div>										
+										<div class="jm-item-button2"><a href="https://twitter.com/MatthewUsdin?lang=en" class="icon fa-twitter"><span class="label">Twitter</span></a></div>
+									</div>
+								</div>
+							</div>
+						
+							
+							<header>
+								<h3><a>Matthew Usdin</a></h3>
+							</header>
+							<p>
+								Chargé du business plan et du développement mobile.
+								Accroc aux applications smartphone, il garde toujours un œil sur l’App Store.							
+							</p>
+						</article>
+						<article class="4u special">
+						
+							<div class="jm-item first">
+								<div class="jm-item-wrapper">
+									<div class="jm-item-image">
+										<a href="#" class="image featured"><img src="images/ayoub2.png" alt="" /></a>
+										<span class="jm-item-overlay"> </span>
+										<div class="jm-item-button"><a href="https://www.linkedin.com/company/glif-it" class="icon fa-linkedin"><span class="label">Linkedin</span></a></div>										
+									</div>
+								</div>
+							</div>
+						
+						
+							<header>
+								<h3><a>Ayoub Hadfat</a></h3>
+							</header>
+							<p>
+								Développeur Android front-end.
+								Expert en Java et passionné par le growth-hacking, Ayoub est le chef technique de Glif it.
+
+							</p>
+						</article>
+						<article class="4u special">
+						
+							<div class="jm-item first">
+								<div class="jm-item-wrapper">
+									<div class="jm-item-image">
+										<a href="#" class="image featured"><img src="images/rico2.png" alt="" /></a>
+										<span class="jm-item-overlay"> </span>
+										<div class="jm-item-button"><a href="https://www.linkedin.com/profile/view?id=317932976&authType=NAME_SEARCH&authToken=JB22&locale=fr_FR&trk=tyah2&trkInfo=tarId%3A1412618538043%2Ctas%3Afr%C3%A9%2Cidx%3A1-1-1" class="icon fa-linkedin"><span class="label">Linkedin</span></a></div>										
+									</div>
+								</div>
+							</div>
+						
+						
+							<header>
+								<h3><a>Frédéric Gresset</a></h3>
+							</header>
+							<p>
+								Développeur  back-end Ruby on Rails et marketeur.
+								Réalisateur des clips promotionnels sur Adobe Premiere Pro. 
+							</p>
+						</article>
+
+					</div>
+				</section>
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+				<div class="container">
+
+					<hr />
+					<div class="row">
+						<div class="12u">
+							
+							<!-- Contact -->
+								<section class="contact">
+									<header>
+										<h3>Des questions ?</h3>
+									</header>
+									<p>contact@glif-it.com</p>
+									<ul class="icons">
+										<li><a href="https://twitter.com/glifit" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="https://www.facebook.com/glifit?fref=tshttps://www.facebook.com/glifit?fref=ts" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+										<li><a href="http://instagram.com/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="https://www.linkedin.com/company/glif-it" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
+									</ul>
+								</section>
+							
+							<!-- Copyright -->
+								<div class="copyright">
+									<ul class="menu">
+										<li>&copy; Glif it. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+									</ul>
+								</div>
+							
+						</div>
+					
+					</div>
+				</div>
+			</div>
+
+	</body>
 </html>
